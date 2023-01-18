@@ -7,7 +7,6 @@ server.use(express.json());
 // Query params = ?nome=NodeJS
 // Route params = /curso/2
 // Request Body = { nome: 'Nodejs', tipo: 'Backend'}
-// Middleware são funções que trabalhando detro de cada rota
 
 const cursos = ["Nodejs", "JavaScript", "React Native"];
 
